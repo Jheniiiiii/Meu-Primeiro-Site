@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#241c18">
+    <meta name="description" content="Tranças feitas para expressar sua beleza e identidade. Conheça os estilos e solicite seu agendamento.">
+    <title>Jheni Fio a Fio | Tranças com identidade</title>
+    <link rel="preload" as="image" href="Galeria/OIP.webp">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a class="brand" href="#inicio" aria-label="Jheni Fio a Fio, página inicial">
+          <span class="brand-mark" aria-hidden="true">✳</span>
+          <span data-salon-name>Jheni Fio a Fio</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+          <a href="#estilos">Estilos</a>
+          <a href="#precos">Preços</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+          <a class="nav-cta" href="#agendamento">Agendar horário <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div class="hero-inner container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Tranças com cuidado e identidade</p>
+            <h1>Sua beleza,<br>sua identidade,<br><em>suas tranças.</em></h1>
+            <p class="hero-description">Um estilo que conta a sua história. Encontre a trança que combina com você e vamos criar juntas.</p>
+            <div class="hero-actions">
+              <a class="button button-gold" href="#agendamento">Quero agendar <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="#estilos">Conheça os estilos <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-note"><span class="note-star" aria-hidden="true">✳</span><span>Beleza que vem de raiz.<br><strong>Feita para você.</strong></span></div>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="hero-image-wrap">
+              <img src="Galeria/OIP.webp" alt="Tranças longas com acabamento ondulado" fetchpriority="high" width="768" height="960">
+            </div>
+            <div class="hero-image-label"><span>Arte em cada detalhe</span><span aria-hidden="true">✳</span></div>
+            <div class="hero-side-note">EXPRESSE<br>QUEM VOCÊ É</div>
+          </div>
+        </div>
+        <div class="hero-bottom container" aria-hidden="true"><span>ESTILO</span><span class="bottom-dot">✳</span><span>CUIDADO</span><span class="bottom-dot">✳</span><span>IDENTIDADE</span></div>
+      </section>
+
+      <section class="intro section-pad">
+        <div class="container intro-grid reveal">
+          <p class="eyebrow dark-eyebrow">Muito além do penteado</p>
+          <p class="intro-text">Tranças são <em>expressão, tradição e liberdade.</em> Aqui, cada detalhe é pensado para você se sentir bem — da escolha do estilo ao toque final.</p>
+          <a class="round-link" href="#sobre" aria-label="Conheça o salão">↘</a>
+        </div>
+      </section>
+
+      <section class="styles-section section-pad" id="estilos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow dark-eyebrow">Encontre seu próximo visual</p><h2>Estilos que <em>encantam</em></h2></div>
+            <p class="section-aside">Do clássico ao contemporâneo,<br>um universo de possibilidades.</p>
+          </div>
+          <div class="styles-grid" id="styles-grid"></div>
+          <p class="section-footnote">Valores iniciais referentes à mão de obra; cabelo jumbo e outros materiais não inclusos. O valor pode variar conforme comprimento, volume e detalhes do modelo. Confirme o orçamento antes de agendar.</p>
+        </div>
+      </section>
+
+      <section class="pricing-section section-pad" id="precos">
+        <div class="container pricing-layout">
+          <div class="pricing-copy reveal">
+            <p class="eyebrow">Transparência em cada detalhe</p>
+            <h2>Um investimento<br>na sua <em>expressão.</em></h2>
+            <p>Valores iniciais de mão de obra para Campo Limpo, São Paulo. O cabelo jumbo e outros materiais não estão inclusos. O orçamento final pode variar de acordo com o modelo, comprimento, volume e detalhes; consulte antes de agendar.</p>
+            <a class="button button-outline-light" href="#agendamento">Solicitar orçamento <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="price-list reveal" id="price-list" aria-label="Tabela de preços iniciais"></div>
+        </div>
+      </section>
+
+      <section class="gallery-section section-pad" id="galeria">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow dark-eyebrow">Inspiração de verdade</p><h2>Feitas com <em>carinho.</em></h2></div>
+            <p class="section-aside">Cada trabalho é único.<br>O próximo pode ser o seu.</p>
+          </div>
+          <div class="gallery-filters" role="group" aria-label="Filtrar fotos por estilo" id="gallery-filters"></div>
+          <div class="gallery-grid" id="gallery-grid"></div>
+          <p class="gallery-note">Imagens ilustrativas. Adicione fotos dos seus trabalhos na pasta <strong>Galeria</strong> e atualize a lista em <strong>script.js</strong>.</p>
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="sobre">
+        <div class="container about-layout">
+          <div class="about-image reveal">
+            <img src="Galeria/3a22f500f6f320090bd6345a6cb1c443.jpg" alt="Detalhe de tranças feitas à mão" loading="lazy" width="1080" height="1350">
+            <span class="about-stamp">Cuidado<br>em cada<br>trança <b>✳</b></span>
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow dark-eyebrow">Prazer, somos o <span data-salon-name>Jheni Fio a Fio</span></p>
+            <h2>Um espaço para<br>você se sentir <em>você.</em></h2>
+            <p class="about-story" id="about-story"></p>
+            <div class="values-grid">
+              <div><span>01</span><h3>Higiene</h3><p>Um ambiente preparado com atenção e cuidado.</p></div>
+              <div><span>02</span><h3>Conforto</h3><p>Uma experiência acolhedora do começo ao fim.</p></div>
+              <div><span>03</span><h3>Qualidade</h3><p>Dedicação aos detalhes em cada acabamento.</p></div>
+              <div><span>04</span><h3>Identidade</h3><p>Beleza natural, respeitada e valorizada.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-section section-pad" id="agendamento">
+        <div class="container booking-layout">
+          <div class="booking-copy reveal">
+            <p class="eyebrow">Seu próximo visual começa aqui</p>
+            <h2>Vamos conversar<br>sobre suas <em>tranças?</em></h2>
+            <p>Conte um pouco do que você imaginou. Sua mensagem será preparada para envio pelo WhatsApp; a data só fica confirmada após o retorno do salão.</p>
+            <div class="booking-detail"><span class="detail-icon" aria-hidden="true">✳</span><span><strong>Sem compromisso automático</strong><br>O salão vai confirmar a disponibilidade com você.</span></div>
+          </div>
+          <form class="booking-form reveal" id="booking-form">
+            <div class="form-heading"><span>01 / 02</span><h3>Solicite seu horário</h3></div>
+            <div class="form-grid">
+              <label>Seu nome<input name="name" type="text" autocomplete="name" placeholder="Como podemos te chamar?" required maxlength="80"></label>
+              <label>Seu telefone<input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(00) 00000-0000" required maxlength="25"></label>
+              <label>Estilo desejado<select name="style" id="booking-style" required><option value="" disabled selected>Escolha um estilo</option></select></label>
+              <label>Comprimento<select name="length" required><option value="" disabled selected>Selecione</option><option>Curto</option><option>Médio</option><option>Longo</option><option>A combinar</option></select></label>
+              <label>Data desejada<input name="date" type="date" required></label>
+              <label>Horário preferido<input name="time" type="time" required></label>
+              <label class="form-full">Observações <span class="optional">(opcional)</span><textarea name="notes" rows="3" maxlength="500" placeholder="Conte detalhes, referências ou dúvidas"></textarea></label>
+            </div>
+            <p class="form-privacy">Seus dados serão usados apenas para responder a esta solicitação.</p>
+            <button class="button button-gold form-submit" type="submit">Continuar pelo WhatsApp <span aria-hidden="true">↗</span></button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-section section-pad" id="contato">
+        <div class="container contact-layout">
+          <div class="contact-heading reveal"><p class="eyebrow dark-eyebrow">Vamos nos encontrar?</p><h2>Fale com<br><em>a gente.</em></h2></div>
+          <div class="contact-details reveal" id="contact-details"></div>
+          <div class="contact-cta reveal"><span aria-hidden="true">✳</span><p>Seu próximo estilo<br>está a uma conversa.</p><a class="text-link" href="#agendamento">Solicitar agendamento <span aria-hidden="true">↗</span></a></div>
+          <p class="contact-demo-notice">Atenção: telefone, Instagram, horários e formas de pagamento são dados de demonstração. Atualize-os antes de divulgar o site.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">✳</span><span data-salon-name>Jheni Fio a Fio</span></a>
+        <p>Beleza que vem de raiz. Feita para você.</p>
+        <span>© <span id="current-year"></span> <span data-salon-name>Jheni Fio a Fio</span></span>
+      </div>
+    </footer>
+  </body>
+</html>
